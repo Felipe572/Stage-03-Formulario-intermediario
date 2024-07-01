@@ -57,7 +57,7 @@ header > p {
 form {
     background: #ffffff;
     border-radius: 20px 20px 0 0;
-    min-height: 300px;
+    min-height: 280px;
 
     padding: 64px;
 
@@ -130,7 +130,14 @@ fieldset > .fieldset-information > legend {
     border: 1px solid #FAFAFC;
     border-radius: 8px;
     height: 56px;
+
+    padding: 0 24px;
 }
+
+input:invalid {
+    border: 1px solid #ff1010;
+}
+
 
 .info-mentoring {
     font-family: "Staatliches", sans-serif;
