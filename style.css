@@ -56,7 +56,7 @@ header > p {
 
 form {
     background: #ffffff;
-    border-radius: 20px ;
+    border-radius: 20px 20px 0 0;
     min-height: 300px;
 
     padding: 64px;
@@ -130,4 +130,66 @@ fieldset > .fieldset-information > legend {
     border: 1px solid #FAFAFC;
     border-radius: 8px;
     height: 56px;
+}
+
+.info-mentoring {
+    font-family: "Staatliches", sans-serif;
+    font-size: 20px;
+    line-height: 34px;
+
+    color: #535971;
+
+    width: 100%;
+
+    margin-bottom: 11px;
+}
+
+.col-3 {
+    display: flex;
+    gap: 20px;
+}
+
+.col-3 > div:nth-child(1) {
+    width: 100%;
+}
+
+.col-3 > div:nth-child(2) {
+    width: 50%;
+}
+
+.col-3 > div:nth-child(3) {
+    width: 50%;
+}
+
+footer {
+    background: #535971;
+
+    height: 136px;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 40px 64px;
+    margin-bottom: 100px;
+
+    border-top: 1px solid #d6d6d6;
+    border-radius: 0 0 20px 20px;
+}
+
+footer > .button {
+    height: 56px;
+
+    color: #fff;
+    background: #FF5374;
+    border-radius: 8px;
+    border: 0;
+
+    font-family: "Archivo", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+footer > .button:hover {
+    background: #b82945;
 }
